@@ -2,7 +2,7 @@ var http = require('http');
 var setup = require('proxy');
 var basicAuthParser = require('basic-auth-parser');
 
-var port   = 80;
+var port   = process.env.PORT || 8080;
 var server = setup(http.createServer());
 server.listen(port, function () {
   console.log('HTTP(s) proxy server listening on port %d', port);
