@@ -5,8 +5,11 @@ A web proxy that can run on a heroku dyno.
 
 Install
 -------
-Install node
+
+Install node.
+
 Clone this repo.
+
 npm install
 
 Test Locally
